@@ -1,0 +1,118 @@
+body{
+    background-color: #fff;
+}
+
+
+
+.well {
+ margin-left: 15px;
+    
+}
+.bell{
+    background-color: #37517e;
+}
+.for {
+    padding: 10px;
+   margin: 10px;
+   margin-top: 3px;
+}
+.active {
+    padding: 10px;
+}
+.sell {
+   margin-left: 5px;
+}
+.one {
+    float: right;
+    font-size: 20px;
+    color: #000;
+}
+.pen {
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.yon {
+    padding: 10px;
+    border-radius: 10px;
+    width: 115px;
+    border: #37517e;
+}
+.yon:hover{
+    background-color:  #fff;
+}
+.pan {
+    margin-left: 5%;
+}
+.too {
+    background-color: rgb(231, 225, 225);
+    width: 100%;
+} 
+.btc {
+    margin-top: 5%;
+}
+
+#footer {
+    margin-top: 5%;
+    background-color: #37517e;
+    color:#fff;
+    
+    
+  }
+  .red {
+    color: #fff;
+  }
+  
+  
+  #footer .copyright {
+    float: left;
+  }
+  
+  #footer .credits {
+    float: right;
+    font-size: 13px;
+  }
+  
+  #footer .credits a {
+    transition: 0.3s;
+  }
+  
+  
+    #footer .copyright,
+    #footer .credits {
+      text-align: center;
+      float: none;
+      width: 100%;
+    }
+  
+    #footer .credits {
+      padding-top: 4px;
+    }
+  
+  #but {
+    width: 100%;
+    background-color: #37517e;
+  }
+  
+  #footer .credits a {
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 768px) {
+    #footer .footer-bottom {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  
+    #footer .copyright,
+    #footer .credits {
+      text-align: center;
+      float: none;
+    }
+  
+    #footer .credits {
+      padding-top: 4px;
+    }
+  }
+  .font {
+    font-size: small;
+  }

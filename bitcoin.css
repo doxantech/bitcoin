@@ -1,0 +1,538 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 25px 0;
+}
+
+#header.header-scrolled,
+#header.header-inner-pages {
+  background: rgba(40, 58, 90, 0.9);
+}
+
+#header .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.icon {
+  width: 60px;
+  float: left;
+  border-radius: 50%;
+
+}
+
+#header .log a {
+  color: #fff;
+}
+
+#header .log img {
+  max-height: 45px;
+}
+
+    
+#header {
+    padding: 10px;
+    background-color: #37517e;
+}
+ 
+.what :hover {
+background-color: #37517e ;
+}
+.dropdown-menu {
+  background-color: #fff;
+}
+.dropdown-menu :hover {
+  color: #209dd8;
+}
+.wat {
+  color: green;
+}
+.goat {
+  color:red;
+}
+.face {
+  color: #209dd8;
+}
+.log {
+  font-size: medium;
+  font-style: italic;
+  margin-top: 18px;
+}
+.leg {
+  width: 100%;
+}
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: #37517e;
+  }
+  
+  #hero .container {
+    padding-top: 72px;
+  }
+  
+  #hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #fff;
+text-shadow: 1px 1px 2px #3b5998;
+-webkit-text-fill-color: #37517e;
+-webkit-text-stroke-width: 2px;
+font-style: unset;
+  }
+  
+  #hero h2 {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+    font-size: 14px;
+  }
+  
+ 
+  #hero .bad:hover {
+    background: #209dd8;
+  }
+  
+  #hero .bow:hover {
+    background: #209dd8;
+  }
+  
+  #hero .car:hover {
+    background: #209dd8;
+  }
+  .bow {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    color: #fff;
+    background: #47b2e4;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+    margin-right: 20px;
+    text-align: center;
+    bottom: 90px;
+  }
+  .car {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    color: #fff;
+    background: #47b2e4;
+    cursor: pointer;
+    text-align: center;
+    bottom: 90px;
+
+  }
+  #hero .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+    #hero {
+      height: 100vh;
+      text-align: center;
+    }
+  
+    #hero .animated {
+      animation: none;
+    }
+  
+    #hero .hero-img {
+      text-align: center;
+    }
+  
+    #hero .hero-img img {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  
+    #hero .hero-img img {
+      width: 70%;
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+  
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  #back {
+    background-color: #37517e;
+  }
+  
+  /*--------------------------------------------------------------
+  # client section
+  --------------------------------------------------------------*/
+ 
+.client {
+  padding: 12px 0;
+  
+  cursor: pointer;
+  filter: grayscale(100%);
+  
+  
+}
+
+  .client:hover {
+      /* border: 2px solid aliceblue; */
+      filter: grayscale(0);
+  }
+  
+.clients {
+  padding: 12px 0;
+  text-align: center;
+  margin-left: 30px;
+
+}
+
+.client2:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+
+.clients {
+  padding: 12px 0;
+  text-align: center;
+}
+
+.clients img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+
+.clients img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
+}
+
+  .top {
+    top: 20%;
+    margin-bottom: 30px;
+    margin-top: 5%;
+  }
+  #CoinList {
+    bottom: 10px;
+    padding-right: 20px;
+  }
+
+  .skills {
+   
+    background-color: #c0deec;
+    background-size: cover;
+  }
+  /*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f3f5fa;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+  }
+  
+  .section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
+
+  
+.services .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  background: #fff;
+}
+
+.services .icon-box .icon {
+  margin-bottom: 10px;
+}
+
+.services .icon-box .icon i {
+  color: #47b2e4;
+  font-size: 36px;
+  transition: 0.3s;
+}
+
+.services .icon-box h4 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services .icon-box h4 a {
+  color: #37517e;
+  transition: ease-in-out 0.3s;
+}
+.mercy {
+  margin-top: 30px;
+}
+
+#left {
+  background-image: url('/Users/USER/Desktop/project3/img/oge.png');
+  /* height: 300px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#right {
+  background-image: url('/Users/USER/Desktop/project3/img/oge.png');
+  /* height: 300px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.unuse {
+  /* margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px; */
+  padding: 120px;
+}
+.by {
+  color: #fff;
+}
+.pix {
+  text-align: center;
+  padding: o;
+  font-weight: bold;
+  -webkit-text-fill-color: green
+}
+input {
+  
+  background-color:#fff;
+  border-radius: 10px;
+  padding: 1px;
+  border: ipx solid grey;
+  padding: 5px;
+  
+  
+}
+.used {
+  background-color: #37517e;
+  padding: 30px;
+  margin-top: 5%;
+}
+
+
+
+.boxes {
+  
+  padding: 12px;
+  width: 50%;
+  margin-bottom: 20px;
+
+
+}
+.hit {
+  background-color: #47b2e4;
+  margin-top: 20px;
+  width: 50%;
+  padding: 12px;
+
+}
+.hit:hover {
+  background-color: #37517e;
+}
+#pwd {
+  width: 70%;
+}
+
+  .app {
+    margin-left: 5px;
+  }
+  #boy {
+    width: 70%;
+  }
+  .foot {
+    width: 100%;
+  }
+ .greg {
+  
+  font-size: medium;
+  font-style: italic;
+ }
+  
+
+
+
+.unuse {
+  /* margin-to
+  p: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px; */
+  padding: 120px;
+}
+.hit {
+  width: 50%;
+  text-align: center;
+}
+#footer {
+  margin-top: 5%;
+  background-color: #37517e;
+  color:#fff;
+  
+  
+}
+.red {
+  color: #fff;
+}
+.suga {
+color: #fff;
+}
+
+#footer .copyright {
+  float: left;
+}
+
+#footer .credits {
+  float: right;
+  font-size: 13px;
+}
+
+#footer .credits a {
+  transition: 0.3s;
+}
+
+
+  #footer .copyright,
+  #footer .credits {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+
+  #footer .credits {
+    padding-top: 4px;
+  }
+
+#but {
+  width: 100%;
+  background-color: #37517e;
+}
+
+#footer .credits a {
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  #footer .footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #footer .copyright,
+  #footer .credits {
+    text-align: center;
+    float: none;
+  }
+
+  #footer .credits {
+    padding-top: 4px;
+  }
+}
+.rug {
+  margin-top: 5%;
+}
+
+.mygood:hover {
+  transform: translateY(-10px);
+  border: 2px solid aliceblue;
+  
+  }
